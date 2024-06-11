@@ -1,0 +1,20 @@
+ul li img {
+    border: 1em solid red;
+}
+
+div.services section {
+    margin-top: 1em;
+    background-color: lightblue;
+}
+
+nav ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+nav ul li:nth-child(3) {
+    font-style: italic;
+}
+
+header h1 > span {
+    color: brown;
+}

@@ -1,0 +1,15 @@
+div p {
+    color: brown;
+}
+
+ul > li {
+    list-style:armenian;
+}
+
+p + p {
+    background-color: aqua;
+}
+
+p ~ span {
+    font-weight: bold;
+}

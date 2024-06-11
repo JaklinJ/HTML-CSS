@@ -1,0 +1,31 @@
+h1 {
+    color: salmon
+}
+
+p {
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: aquamarine;
+}
+
+#main-title {
+    color: blueviolet;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul li {
+    color: orangered;
+}
+
+div {
+    background-color: beige;
+}

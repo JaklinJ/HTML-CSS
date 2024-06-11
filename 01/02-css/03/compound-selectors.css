@@ -1,0 +1,21 @@
+p.highlighted-paragraph {
+    color: aquamarine;
+    font-size: 18px;
+}
+
+div#special-div {
+    background-color: orangered;
+    padding: 5px;
+}
+
+.so-special, .not-so-much {
+    color: violet;
+}
+
+p.link a {
+    color: blue;
+}
+
+div#div-link a {
+    color: green;
+}
