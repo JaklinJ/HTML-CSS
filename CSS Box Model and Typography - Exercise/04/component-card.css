@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+
+
+body {
+    background-color: #eee;
+    padding: 2em;
+}
+
+a {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0.3em;
+}
+
+a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a span {
+    display: block;
+}
+
+a .content, 
+a .footer {
+    padding: 1em 2em;
+}
+
+a strong {
+    display: block;
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+a .footer span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a .footer span:nth-child(1) {
+    font-weight: bold;
+}
+
+a .footer span:nth-child(2) {
+    font-style: italic;
+}

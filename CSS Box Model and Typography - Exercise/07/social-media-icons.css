@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+.icons {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.icons li {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.icons li a {
+    display: block;
+    color: black;
+    width: 3em;
+    background-color: #eee;
+    font-size: 1.5em;
+    line-height: 3em;
+    aspect-ratio: 1/1;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}

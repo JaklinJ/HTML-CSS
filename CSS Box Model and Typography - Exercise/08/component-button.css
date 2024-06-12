@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body {
+    padding: 2em;
+    margin: 0;
+}
+
+body, button, textarea, input {
+    font: inherit;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    text-align: center;
+    color: black;
+    background-color: #DDD;
+    text-decoration: none;
+    border: 1px solid #DDD;
+    border-radius: 0.3em;
+    outline: none;
+}
+
+.button + .button {
+    margin-left: 1em;
+}
+
+.button.primary {
+    background-color: #FF9B00;
+}
+
+.button.secondary {
+    background-color: #F9F9CC;
+}
+
+.button.outline {
+    background-color: #fff;
+}
