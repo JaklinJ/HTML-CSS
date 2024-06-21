@@ -21,18 +21,18 @@ body::before {
     padding: 1em 1.5em;
     margin-bottom: 2em;
     border-radius: 0.3em;
-} 
+}
 
-@media print {
+@media (hover: none) {
     body::before {
         display: block;
-        content: 'The page is using a print preview or it was printed';
+        content: 'The device does NOT support hover';
     }
 }
 
-@media screen {
+@media (hover: hover) {
     body::before {
         display: block;
-        content: 'The page is being shown on a screen';
+        content: 'The device does support hover';
     }
 }

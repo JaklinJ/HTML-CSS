@@ -23,16 +23,30 @@ body::before {
     border-radius: 0.3em;
 } 
 
-@media print {
+@media (hover: none) {
     body::before {
         display: block;
-        content: 'The page is using a print preview or it was printed';
+        content: 'This device does not support hover';
     }
 }
 
-@media screen {
+@media (width: 600px) {
     body::before {
         display: block;
-        content: 'The page is being shown on a screen';
+        content:'The viewport width is 600px';
+    }
+}
+
+@media (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The device is landscape oriented';
+    }
+}
+
+@media (height: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport height is 800px';
     }
 }
