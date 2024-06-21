@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    font: 14px/1.5 Lato,sans-serif;
+}
+
+.main-navigation ul ul,
+.main-navigation {
+    background-color: #EEE;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+.main-navigation > ul {
+    display: flex;
+    padding: 0 0.25em;
+}
+
+.main-navigation ul ul {
+    display: none;
+    flex-direction: column;
+    padding: 0.25em 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 18em;
+    z-index: 200;
+}
+
+.main-navigation ul ul ul {
+    top: -0.25em;
+    left: 100%;
+}
+
+.main-navigation li {
+    list-style: none outside;
+    padding: 0.5em 0.25em;
+    position: relative;
+    display: block;
+}
+
+.main-navigation li li {
+    padding: 0.25em 0.5em;
+}
+
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+    color: darkorange;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 0.6em 1em;
+    border-radius: 0.3em;
+    line-height: 1;
+}
+
+.main-navigation li:hover > a,
+.main-navigation a:hover {
+    color: white;
+    background: darkorange;
+}
+
+.main-navigation li:hover > a {
+    position: relative;
+    z-index: 300;
+}
+
+.main-navigation li:hover >ul {
+    display: flex;
+}

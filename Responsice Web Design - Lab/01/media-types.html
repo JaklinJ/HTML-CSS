@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Types</title>
+    <link rel="stylesheet" href="media-type.css">
+</head>
+<body>
+    
+    <h1>Media Types</h1>
+    <p>https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types</p>
+    
+    <p class="desc">Media types describe the general category of a device. Except when using the not or only logical operators, the media type is optional and the all type is implied.</p>
+    
+    <h2>all</h2>
+    <p>Suitable for all devices</p>
+    <p class="media">@media all {</p>
+        <p class="media-body">* {</p>
+            <p class="media-body-lvl1">padding: 0;</p>
+            <p class="media-body-lvl1">margin: 0;</p>
+            <p class="media-body-lvl1">box-sizing: border-box;</p>
+            <p class="media-body">}</p>
+        <p class="media-body">body {</p>
+        <p class="media-body-lvl1">padding: 2em;</p>
+        <p class="media-body-lvl1">font: 14px/1.5 Lato, sans-serif;</p>
+        <p class="media-body">}</p>
+        <p class="media-body">p {/p>
+        <p class="media-body-lvl1">padding-bottom: 1.5em;</p>
+        <p class="media-body">}</p>  
+    <p>}</p>
+
+    <h2>print</h2>
+    <p class="desc">Intended for paged material and documents viewed on a screen in print preview mode</p>
+
+
+    <p class="media">@media print {</p>
+        <p class="media-body">body::before {</p>
+            <p class="media-body-lvl1">display: block;</p>
+            <p class="media-body-lvl1">content: 'The page is using a print preview or it was printed';</p>
+        <p class="media-body">}</p>
+    <p class="media">}</p>
+
+    <h2>screen</h2>
+    <p class="desc">Intended primarily for screens</p>
+
+    <p class="media">@media screen {</p>
+        <p class="media-body">body::before {</p>
+            <p class="media-body-lvl1">display: block;</p>
+            <p class="media-body-lvl1">content: 'The page is being shown on a screen';</p>
+        <p class="media-body">}</p>
+    <p class="media">}</p>
+    
+</body>
+</html>
